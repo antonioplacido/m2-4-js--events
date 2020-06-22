@@ -43,11 +43,11 @@
 
 // Create variables with DOM items
 const body = document.querySelector('body');
-const result = document.getElementById('main');            
+const showMsg = document.getElementById('main');            
 
 // The 'click' function
 function clicky() {
-  result.innerText = 'Exercise 1';
+  showMsg.innerText = 'Exercise 1';
   body.removeEventListener('click', clicky);
 }
 
